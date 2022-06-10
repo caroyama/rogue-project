@@ -1,0 +1,94 @@
+                /**BASE CSS**/
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    padding: 20px;
+    margin: 20px;
+}
+
+                /**GRID**/
+
+.full-width{
+    width: 1200px; 
+    padding: 0 20px 0 20px;
+    margin: 0;
+    overflow: auto;
+}
+
+.half-width{
+    width: 600px;
+    margin: 0;
+    float: left;
+    overflow: auto;
+}
+
+.third-width{
+    width: 400px;
+    height: 210px;
+    margin: 0; 
+    padding-left: 20px;
+    float: left;
+    overflow: auto;
+    border: 0.5px solid lightgray;
+
+}
+                /**HEADER**/
+
+h1{
+    font-weight: 700;
+    font-size: 30pt;
+}
+
+span{
+    color: #77a466;
+}
+
+nav{
+    float: right;
+    color: #77a466;
+    font-size: 10pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 25px;
+
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+}
+
+img{
+    width: 1200px;
+    height: 288px;
+    padding: 0;
+    object-position: 50% 50%; 
+}
+/**MAIN**/
+
+h3{
+    font-size: 18pt;
+    color:#77a466;
+}
+
+h4{
+    font-size: 12pt;
+    text-transform: uppercase;
+}
+
+section#menu div.third-width p.food{
+    color: #77a466
+}
+
+/**FOOTER**/
+
+div.full-width p#footer{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight:bold;
+}
+
+div.full-width p#footer span.fresh{
+    font-family: 'Galada', cursive;
+}
